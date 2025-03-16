@@ -2,3 +2,8 @@ name: SuggestionBook
 version: '1.0-SNAPSHOT'
 main: me.xingyan.suggestionBook.Main
 api-version: '1.21'
+commands:
+    getbook:
+        description: Open the suggestion book
+        usage: /getbook
+        aliases: [sb]
